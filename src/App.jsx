@@ -1,9 +1,13 @@
-export default function TailwindRedTest() {
+import React from "react";
+import NavigationBar from "../Component/NavigationBar";
+
+function App() {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-red-500">
-      <h1 className="text-6xl font-bold text-white shadow-lg p-8 rounded-xl">
-        Tailwind is NOT Working!
-      </h1>
+    <div>
+      <NavigationBar />
+      {/* Rest of your content */}
     </div>
   );
 }
+
+export default App;
